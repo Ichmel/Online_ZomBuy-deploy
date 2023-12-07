@@ -1,0 +1,350 @@
+.nav-links-nav {
+    display: flex;
+    padding: 5;
+}
+
+.nav__wrapper {
+    display: flex;
+    align-content: center;
+
+}
+
+.nova {
+    margin-right: 60px;
+    margin-left: 100px;
+}
+
+
+.active {
+    color: var(--primary-color);
+    font-weight: 700;
+
+}
+
+
+.inactive {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+
+.menu {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    margin-bottom: 0;
+
+}
+
+.nav__wrapper a {
+    font-size: 16px;
+    padding: 10px;
+
+}
+
+
+.panier a {
+    color: var(--second-color);
+
+}
+
+.pan {
+    margin-left: 15px;
+}
+
+.nav__item {
+    margin-right: 10px;
+}
+
+.nav__icons {
+    display: flex;
+    align-items: center;
+    column-gap: 1.2rem;
+
+}
+
+.nav__icons span i {
+    font-size: 1.4rem;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+
+.mobile__menu {
+    font-size: 1.3rem;
+    color: var(--primary-color);
+    display: none;
+}
+
+
+
+
+.input-group {
+   
+    display: flex;
+
+}
+
+
+.search {
+    padding-top: 14px;
+    margin-right: 40px;
+   
+}
+
+
+
+.search input {
+    height: 40px;
+    width: 400px;
+    padding: 0px 15px;
+    border: 1px solid #E4E7ED;
+    background-color: #FFF;
+    color: #150422;
+    font-size: 13px;
+    outline: none;
+
+}
+
+.search .btn {
+    background: var(--second-color);
+    color: white;
+    height: 40px;
+
+}
+
+.dropdown-item p {
+    color: var(--primary-color);
+    font-weight: 500;
+
+}
+
+
+
+
+.dropdown button {
+    color: var(--primary-color);
+    margin-left: 10px;
+    background: var(--primary-color);
+}
+
+
+@media only screen and (max-width:1024px) {
+
+
+    .search {
+        padding-top: 14px;
+        margin-right: 30px;
+    }
+
+    .nova {
+        margin-right: 30px;
+        margin-left: 50px;
+    }
+
+
+    .navigation p {
+        font-size: 14px;
+
+    }
+
+    .nav__wrapper a {
+        font-size: 14px;
+        padding: 5px;
+
+    }
+
+    
+
+    .input-group {
+        width: 60%;
+        display: flex;
+
+    }
+
+    .search input {
+        height: 40px;
+        padding: 0px 15px;
+        background-color: #FFF;
+        color: #150422;
+        font-size: 13px;
+        outline: none;
+
+    }
+
+    .search .btn {
+        background: var(--second-color);
+
+
+    }
+}
+
+
+
+@media only screen and (max-width:992px) {
+
+
+    .input-group {
+        width: 200px;
+        display: flex;
+
+    }
+
+    .search {
+        padding-top: 14px;
+        margin-right: 60px;
+    }
+
+    .nova {
+        margin-right: 20px;
+        margin-left: 30px;
+    }
+
+
+
+
+
+    .nav__item a {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+
+
+    .nav__wrapper a {
+        font-size: 14px;
+        padding: 5px;
+
+    }
+
+    .navigation {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgb(0, 0, 0, 0, 53);
+        z-index: 9999;
+        display: none;
+    }
+
+    .menu {
+        position: absolute;
+        top: 0px;
+        right: 0;
+        width: 300px;
+        height: 100%;
+        background: #fff;
+        z-index: 99999;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .menu a {
+        padding: 30px;
+        text-align: center;
+        font-size: 600;
+    }
+
+    .active__menu {
+        display: block;
+    }
+
+    .mobile__menu {
+        display: block;
+    }
+
+    .mobile__menu span i {
+        font-size: 1.1rem !important;
+    }
+
+    .mobile__menu {
+        display: flex;
+    }
+
+    .input {
+
+        height: 35px;
+        padding: 0px 10px;
+        background-color: #FFF;
+        color: #150422;
+        font-size: 13px;
+        outline: none;
+
+    }
+
+
+
+    .input-group {
+        width: 400px;
+        display: flex;
+
+    }
+
+    .search {
+        padding-top: 14px;
+        margin-right: 60px;
+    }
+
+    .nova {
+        margin-right: 20px;
+        margin-left: 30px;
+    }
+
+    .nav__wrapper  {
+
+        margin-bottom: 10px;
+
+    }
+
+}
+
+@media only screen and (max-width:425px) {
+
+
+    .search {
+        padding-top: 14px;
+        margin-right: 20px;
+    }
+
+    .nova {
+        margin-right: 10px;
+        margin-left: 20px;
+    }
+
+
+
+    .input {
+
+        height: 35px;
+        padding: 0px 10px;
+        background-color: #FFF;
+        color: #150422;
+        font-size: 13px;
+        outline: none;
+
+    }
+
+    .nav__wrapper  {
+
+        margin-bottom: 10px;
+
+    }
+
+
+    .input-group {
+        width: 200px;
+        display: flex;
+
+    }
+
+
+
+
+
+
+
+}

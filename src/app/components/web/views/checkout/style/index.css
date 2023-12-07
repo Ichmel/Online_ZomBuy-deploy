@@ -1,0 +1,58 @@
+.produit span {
+    font-size: 14px;
+    color: black;
+    font-weight: 600;
+    justify-items: center;
+    padding: 5px;
+    display: block;
+}
+.produit .color {
+    margin-left: 90px;
+}
+
+.btn-color2 {
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border-color: rgb(53, 51, 51);
+}
+
+
+.express-btn {
+border-radius: 4px;
+padding: 5px;
+}
+
+.btn-msg {
+   
+    width: 33px;
+    height: 33px;
+    border-radius: 20px;
+    background: var(--primary-color);
+   
+}
+.send {
+   color: white;
+    font-size: 18px;
+}
+
+.main-produit {
+    display: flex;
+    align-content: space-between ;
+    justify-content: space-between ; 
+   
+}
+.total-produit {
+    margin-top: 20px;
+    display: flex;
+    align-content: space-between ;
+    justify-content: space-between ; 
+}
+
+.total-produit span {
+    color: var( --second-color);
+    font-weight: 550;
+    font-size: 14px;
+}
+
